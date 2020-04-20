@@ -15,7 +15,7 @@ public class User {
 	public String postal;
 	public String username;
 	public String password;
-	
+		
 	public String getType() {
 		return type;
 	}
