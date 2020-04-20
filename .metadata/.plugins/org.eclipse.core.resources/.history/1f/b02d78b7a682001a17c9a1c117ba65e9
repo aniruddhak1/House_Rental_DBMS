@@ -1,0 +1,49 @@
+package com.example.demo;
+
+public class User {
+	
+	public String type;
+	public String firstname;
+	public String lastname;
+	public String email;
+	public String gender;
+	public String phoneno;
+	public String ssn;
+	public String address;
+	public String city;
+	public String state;
+	public String postal;
+	public String username;
+	public String password;
+	
+	private int ld_id;
+	private String ld_user_type;
+	private int ld_user_id;
+	private String ld_username;
+	private String ld_password;
+	
+	private int o_id;
+	private String o_first_name;
+	private String o_last_name;
+	private int o_contact_number;
+	private String o_email_id;
+	private String o_created_at;
+	private int o_country_code;
+	private String o_city;
+	private int o_postal_code;
+	private String o_SSN;
+	
+	private int t_id;
+	private String t_first_name;
+	private String t_last_name;
+	private int t_contact_number;
+	private String t_email_id;
+	private String t_gender;
+	private String t_created_at;
+	private int t_country_code;
+	private String t_city;
+	private int t_postal_code;
+	private String t_SSN;
+	
+
+}

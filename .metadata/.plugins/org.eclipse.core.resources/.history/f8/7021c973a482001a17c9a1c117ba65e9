@@ -1,0 +1,41 @@
+package com.example.demo;
+
+public class LoginDetails {
+	
+	private int ld_id;
+	private String ld_user_type;
+	private int ld_user_id;
+	private String ld_username;
+	private String ld_password;
+	public int getLd_id() {
+		return ld_id;
+	}
+	public void setLd_id(int ld_id) {
+		this.ld_id = ld_id;
+	}
+	public String getLd_user_type() {
+		return ld_user_type;
+	}
+	public void setLd_user_type(String ld_user_type) {
+		this.ld_user_type = ld_user_type;
+	}
+	public int getLd_user_id() {
+		return ld_user_id;
+	}
+	public void setLd_user_id(int ld_user_id) {
+		this.ld_user_id = ld_user_id;
+	}
+	public String getLd_username() {
+		return ld_username;
+	}
+	public void setLd_username(String ld_username) {
+		this.ld_username = ld_username;
+	}
+	public String getLd_password() {
+		return ld_password;
+	}
+	public void setLd_password(String ld_password) {
+		this.ld_password = ld_password;
+	}
+
+}

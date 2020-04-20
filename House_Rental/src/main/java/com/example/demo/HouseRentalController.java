@@ -12,5 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 public class HouseRentalController {
+	
+	@PostMapping("/register")
+    public User registerUser(@Valid @RequestBody User user) {
+        return employeeRepository.save(employee); \\to be changed
+    }
 
 }
