@@ -9,11 +9,18 @@ import org.springframework.transaction.annotation.Transactional;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
+@Repository
+@Transactional
 public class RentalDAO {
 	
 	@Autowired
     private JdbcTemplate jdbcTemplate;
 	
+	public RentalDAO(JdbcTemplate jdbcTemplate) {
+		super();
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	public List<User> list() {
 	    String sql = "SELECT * FROM TENANT";
 	    
@@ -21,14 +28,14 @@ public class RentalDAO {
 	 
 	    List<User> listSale = jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(User.class));
 	    
-	    //System.out.println(listSale);
+	    System.out.println(listSale);
 	 
 	    return listSale;
 
 	}
 
 	public int Save() {
-		//jdbcTemplate.update("insert into Tenant (first_name) values('Bhakti')");
+		jdbcTemplate.update("insert into Tenant (first_name) values('Aniruddha')");
         return 1;
     }
 }

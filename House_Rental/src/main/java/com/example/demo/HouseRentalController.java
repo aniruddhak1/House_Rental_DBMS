@@ -13,12 +13,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RestController
 public class HouseRentalController {
 	
+	@Autowired
+    private RentalDAO dao;
+	
 	@GetMapping(path="/test")
     public int login() {
         System.out.println("*******logging*********");
-        RentalDAO obj = new RentalDAO();
-		//obj.Save();
-        return obj.Save();
+        //RentalDAO obj = new RentalDAO();
+		dao.list();
+        return dao.Save();
     }
 
 }
