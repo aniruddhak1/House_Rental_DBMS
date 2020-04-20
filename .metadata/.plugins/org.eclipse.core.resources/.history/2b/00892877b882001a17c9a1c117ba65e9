@@ -29,6 +29,6 @@ public class RentalDAO {
 
 	public int Save() {
 		//jdbcTemplate.update("insert into Tenant (first_name) values('Bhakti')");
-        return 1;
+        return 1
     }
 }

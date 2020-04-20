@@ -8,6 +8,8 @@ public class HouseRentalApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HouseRentalApplication.class, args);
+		RentalDAO obj = new RentalDAO();
+		obj.Save();
 	}
 
 }
