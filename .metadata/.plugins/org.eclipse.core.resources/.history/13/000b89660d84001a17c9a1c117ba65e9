@@ -31,7 +31,7 @@ public class HouseRentalController {
 	@PostMapping(path="/register")  
     public int saveRegister(@RequestBody User user) {
          return dao.Register(user);
-		 //System.out.println(user.getFirstname());
+		 //System.out.println(user);
          //return 36; 
    }  
 

@@ -28,11 +28,10 @@ public class HouseRentalController {
         return 0;
     }
 	
-	@PostMapping(path="/register")  
-    public int saveRegister(@RequestBody User user) {
-         return dao.Register(user);
-		 //System.out.println(user.getFirstname());
-         //return 36; 
+	@PostMapping("path=/register")  
+    public String saveRegister(@RequestBody User user) {
+         return dao.Register(user);  
+          
    }  
 
 }

@@ -53,7 +53,7 @@ public class RentalDAO {
 			System.out.println(i);
 			/*if(i==1) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
-						user.getType(),,user.getUsername(),user.getPassword());
+						user.getType(),0,user.getUsername(),user.getPassword());
 			}*/
 		}
         return 2;

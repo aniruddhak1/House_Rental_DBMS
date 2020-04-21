@@ -51,10 +51,10 @@ public class RentalDAO {
 					//"TAniruddha","TK","4455","a@k","male",45,"Buffalo",87587,"548");
 					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry_code()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
 			System.out.println(i);
-			/*if(i==1) {
+			if(i==1) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
-						user.getType(),,user.getUsername(),user.getPassword());
-			}*/
+						user.getType(),4,user.getUsername(),user.getPassword());
+			}
 		}
         return 2;
     }

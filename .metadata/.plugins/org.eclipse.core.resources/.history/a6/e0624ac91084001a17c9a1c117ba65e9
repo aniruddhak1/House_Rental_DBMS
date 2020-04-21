@@ -38,9 +38,9 @@ public class RentalDAO {
 		System.out.println("UserType is: "+user.getType());
 		if(user.getType().equals("Tenant")) {
 			int i=jdbcTemplate.update("insert into tenant (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
-					//"TAniruddha","TK","4455","a@k","Male",45,"Buffalo",87587,548);
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry_code()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
-			if(i==1) {
+					//"TAniruddha","TK",4455,"a@k","Male",45,"Buffalo",87587,548);
+					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),user.getCountry_code(),user.getCity(),user.getPostal(),user.getSsn());
+			if(i==0) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
 						user.getType(),0,user.getUsername(),user.getPassword());
 			}
@@ -48,12 +48,12 @@ public class RentalDAO {
 		if(user.getType().equals("Owner")) {
 			System.out.println("About to insert");
 			int i = jdbcTemplate.update("insert into owner (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
-					//"TAniruddha","TK","4455","a@k","male",45,"Buffalo",87587,"548");
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry_code()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
+					"TAniruddha","TK",4455,"a@k","Male",45,"Buffalo",87587,"548");
+					//user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),user.getCountry_code(),user.getCity(),user.getPostal(),user.getSsn());
 			System.out.println(i);
-			/*if(i==1) {
+			/*if(i==0) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
-						user.getType(),,user.getUsername(),user.getPassword());
+						user.getType(),0,user.getUsername(),user.getPassword());
 			}*/
 		}
         return 2;
