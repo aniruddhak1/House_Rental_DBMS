@@ -34,15 +34,15 @@ public class RentalDAO {
 
 	}
 
-	public String Register(User user) {
+	public int Register(User user) {
 		if(user.getType()=="tenant") {
 			jdbcTemplate.update("insert into tenant (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
 					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),user.getCountry_code(),user.getCity(),user.getPostal(),user.getSsn());
 		}
 		else if(user.getType()=="owner") {
-			jdbcTemplate.update("insert into tenant (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),user.getCountry_code(),user.getCity(),user.getPostal(),user.getSsn());
+			 jdbcTemplate.update("insert into books (name, price) values(?,?)", book.getName(), book.getPrice());
 		}
-        return "Success";
+		jdbcTemplate.update("insert into User (first_name) values('Aniruddha')");
+        return 1;
     }
 }
