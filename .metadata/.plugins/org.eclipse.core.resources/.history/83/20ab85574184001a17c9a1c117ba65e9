@@ -59,7 +59,7 @@ public class RentalDAO {
 		
 		String email=user.getEmail();
 
-		String sql = "SELECT * FROM Users WHERE EMAIL_ID ='"+email+"'";
+		String sql = "SELECT * FROM Users WHERE EMAIL_ID = 'akar@buff.edu'";
 
 	    
 		User output = (User) jdbcTemplate.queryForObject(

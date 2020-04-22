@@ -40,16 +40,24 @@ public class RentalDAO {
 	public int Register(User user) {
 		System.out.println("UserType is: "+user.getType());
 		if(user.getType().equals("tenant")) {
-			int i=jdbcTemplate.update("insert into users (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,USER_TYPE,GENDER,COUNTRY,CITY,POSTAL_CODE,SSN,PASSWORD,ADDRESS) values(?,?,?,?,?,?,?,?,?,?,?,?)",
+			int i=jdbcTemplate.update("insert into tenant (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
 					//"TAniruddha","TK","4455","a@k","Male",45,"Buffalo",87587,548);
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getType(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn(),user.getPassword(),user.getAddress());
+					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
+			if(i==1) {
+				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
+						user.getType(),0,user.getUsername(),user.getPassword());
+			}
 		}
 		if(user.getType().equals("owner")) {
 			System.out.println("About to insert");
-			int i = jdbcTemplate.update("insert into users (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,USER_TYPE,GENDER,COUNTRY,CITY,POSTAL_CODE,SSN,PASSWORD,ADDRESS) values(?,?,?,?,?,?,?,?,?,?,?,?)",
+			int i = jdbcTemplate.update("insert into owner (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
 					//"TAniruddha","TK","4455","a@k","male",45,"Buffalo",87587,"548");
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getType(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn(),user.getPassword(),user.getAddress());
+					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
 			System.out.println(i);
+			if(i==1) {
+				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
+						user.getType(),4,user.getUsername(),user.getPassword());
+			}
 		}
         return 2;
     }
@@ -59,10 +67,9 @@ public class RentalDAO {
 		
 		String email=user.getEmail();
 
-		String sql = "SELECT * FROM Users WHERE EMAIL_ID ='"+email+"'";
+		String sql = "SELECT * FROM Users";
 
-	    
-		User output = (User) jdbcTemplate.queryForObject(
+	    User output = (User) jdbcTemplate.queryForObject(
 	            sql,  new UserRowMapper());
 
 	    return output;
