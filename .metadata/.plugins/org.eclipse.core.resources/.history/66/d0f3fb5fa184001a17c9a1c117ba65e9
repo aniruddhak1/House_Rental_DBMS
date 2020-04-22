@@ -1,0 +1,32 @@
+package com.example.demo;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class HouseRowMapper implements RowMapper<House>{
+	
+	@Override
+    public House mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+        System.out.println("Entering method housemapper");
+    	House house = new House();
+    	house.setId(rs.getInt("ID"));
+    	house.setStreet_name(rs.getString("STREET_NAME"));
+    	house.setHouse_number(rs.getInt("house_number"));
+    	house.setCountry(rs.getString("country"));
+    	house.setCity(rs.getString("city"));
+    	house.setState(rs.getString("state"));
+    	house.setPostal_code(rs.getInt("postal_code"));
+    	house.setNumber_of_rooms(rs.getInt("number_of_rooms"));
+    	house.setUtilities_included(rs.getString("utilities_included"));
+    	house.setRent(rs.getInt("rent"));
+    	house.setAvailable(rs.getString("available"));
+    	
+        System.out.println("Exiting method rowmapper"+house.getStreet_name());
+        return house;
+
+    }
+
+}

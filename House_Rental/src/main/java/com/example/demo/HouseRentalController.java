@@ -38,6 +38,16 @@ public class HouseRentalController {
 	@RequestMapping(value = "/login")
 	public User Login(@RequestBody User user) {	    	      
 	    return dao.login(user);
-	} 
+	}
+	
+	@RequestMapping(value = "/houses")
+	public List<House> displayhouses() {	    	      
+	    return dao.allhouses();
+	}
+	
+	@RequestMapping("/owner")
+	public List<House> ownerhouses(/*@PathVariable(name = "oid") int oid*/) {	    
+	    return dao.ownerhouses(21);      
+	}
 
 }

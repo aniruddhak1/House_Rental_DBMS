@@ -65,7 +65,13 @@ public class RentalDAO {
 		User output = (User) jdbcTemplate.queryForObject(
 	            sql,  new UserRowMapper());
 
-	    return output;
+
+	    if((user.getEmail().equals(output.getEmail())) && (user.getPassword().equals(output.getPassword()))) {
+	    	return output;
+	    }
+	    else {
+	    	return new User();
+	    }
        }
 	
 	/*public User login(User user) {
@@ -90,4 +96,33 @@ public class RentalDAO {
 	    //System.out.println(logindetails);	 
 	    //return logindetails;
 	}*/
+	
+	public List<House> allhouses(){
+		
+		String sql = "SELECT * FROM HOUSE";
+
+	    System.out.println("Before house jdbc");
+		List<House> output = jdbcTemplate.query(
+                sql,
+                new HouseRowMapper());
+		System.out.println("After house jdbc");
+
+	    return output;
+	    }
+	
+	public List<House> ownerhouses(int oid){
+		
+		String sql = "SELECT h.* FROM HOUSE h, owns o where o.user_id="+oid+" and o.house_id=h.id";
+		System.out.println(sql);
+
+	    System.out.println("Before house jdbc");
+		List<House> output = jdbcTemplate.query(
+                sql,
+                new HouseRowMapper());
+		System.out.println("After house jdbc");
+
+	    return output;
+		}
+	
+	
 }
