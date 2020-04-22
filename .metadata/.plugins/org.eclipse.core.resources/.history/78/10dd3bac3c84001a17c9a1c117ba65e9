@@ -64,15 +64,13 @@ public class RentalDAO {
 	
 	public User login(User user){
 		System.out.println(user.getEmail());
-		
-		String email=user.getEmail();
 
-		String sql = "SELECT * FROM Users";
+		String sql = "SELECT * FROM Users WHERE EMAIL_ID = '"+user.getEmail()+"'";
 
-	    User output = (User) jdbcTemplate.queryForObject(
-	            sql,  new UserRowMapper());
+	    return jdbcTemplate.queryForObject(
+	            sql, new UserRowMapper());
 
-	    return output;
+	    //return output;
        }
 	
 	/*public User login(User user) {

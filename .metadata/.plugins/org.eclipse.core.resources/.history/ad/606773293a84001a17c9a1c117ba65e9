@@ -42,7 +42,7 @@ public class RentalDAO {
 		if(user.getType().equals("tenant")) {
 			int i=jdbcTemplate.update("insert into tenant (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
 					//"TAniruddha","TK","4455","a@k","Male",45,"Buffalo",87587,548);
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
+					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry_code()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
 			if(i==1) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
 						user.getType(),0,user.getUsername(),user.getPassword());
@@ -52,7 +52,7 @@ public class RentalDAO {
 			System.out.println("About to insert");
 			int i = jdbcTemplate.update("insert into owner (FIRST_NAME,LAST_NAME,CONTACT_NUMBER,EMAIL_ID,GENDER,COUNTRY_CODE,CITY,POSTAL_CODE,SSN) values(?,?,?,?,?,?,?,?,?)",
 					//"TAniruddha","TK","4455","a@k","male",45,"Buffalo",87587,"548");
-					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
+					user.getFirstname(),user.getLastname(),user.getPhoneno(),user.getEmail(),user.getGender(),Integer.parseInt(user.getCountry_code()),user.getCity(),Integer.parseInt(user.getPostal()),user.getSsn());
 			System.out.println(i);
 			if(i==1) {
 				return jdbcTemplate.update("insert into login_details (USER_TYPE,USER_ID,USERNAME,PASSWORD) values(?,?,?,?)",
@@ -63,14 +63,11 @@ public class RentalDAO {
     }
 	
 	public User login(User user){
-		System.out.println(user.getEmail());
-		
-		String email=user.getEmail();
 
-		String sql = "SELECT * FROM Users";
+		String sql = "SELECT * FROM Users WHERE EMAIL_ID = ?";
 
-	    User output = (User) jdbcTemplate.queryForObject(
-	            sql,  new UserRowMapper());
+	    User output = (User)jdbcTemplate.queryForObject(
+	            sql, new Object[] {user.getEmail() }, new UserRowMapper());
 
 	    return output;
        }

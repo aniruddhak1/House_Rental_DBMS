@@ -62,17 +62,19 @@ public class RentalDAO {
         return 2;
     }
 	
-	public User login(User user){
+	public List<User> login(User user){
 		System.out.println(user.getEmail());
-		
-		String email=user.getEmail();
 
-		String sql = "SELECT * FROM Users";
+		String sql = "SELECT * FROM Users WHERE EMAIL_ID = '"+user.getEmail()+"'";
 
-	    User output = (User) jdbcTemplate.queryForObject(
-	            sql,  new UserRowMapper());
-
+	    List<User> output = jdbcTemplate.query(
+	            sql, new UserRowMapper());
+	    
+	    System.out.println(output.size());
+	    
 	    return output;
+
+	    //return output;
        }
 	
 	/*public User login(User user) {

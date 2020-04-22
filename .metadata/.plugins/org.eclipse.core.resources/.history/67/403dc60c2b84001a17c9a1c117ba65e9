@@ -33,12 +33,6 @@ public class HouseRentalController {
          return dao.Register(user);
 		 //System.out.println(user.getFirstname());
          //return 36; 
-   }
-	
-	@RequestMapping(value = "/login")
-	public String Login(@RequestBody User user) {
-	    dao.login(user);	      
-	    return "redirect:/";
-	} 
+   }  
 
 }
