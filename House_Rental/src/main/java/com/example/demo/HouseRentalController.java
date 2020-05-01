@@ -45,9 +45,49 @@ public class HouseRentalController {
 	    return dao.allhouses();
 	}
 	
-	@RequestMapping("/owner")
-	public List<House> ownerhouses(/*@PathVariable(name = "oid") int oid*/) {	    
-	    return dao.ownerhouses(21);      
+	@RequestMapping("houses/{oid}")
+	public List<House> ownerhouses(@PathVariable(name = "oid") int oid) {	    
+	    return dao.ownerhouses(oid);      
+	}
+	
+	@RequestMapping("houses/add/{oid}")
+	public int addhouses(@PathVariable(name = "oid") int oid, @RequestBody House house) {	    
+	    return dao.addhouse(oid, house);      
+	}
+	
+	@RequestMapping("houses/delete/{oid}")
+	public int deleteHouse(@PathVariable(name = "oid") int oid, @RequestBody House house) {	    
+	    return dao.deleteHouse(oid, house);      
+	}
+	
+	@RequestMapping("houses/edit/{oid}")
+	public int editHouse(@PathVariable(name = "oid") int oid, @RequestBody House house) {	    
+	    return dao.editHouse(oid, house);      
+	}
+	
+	@RequestMapping("card/add/{oid}")
+	public int addCard(@PathVariable(name = "oid") int oid, @RequestBody Card card) {	    
+	    return dao.addCard(oid, card);      
+	}
+	
+	@RequestMapping("ach/add/{oid}")
+	public int addACH(@PathVariable(name = "oid") int oid, @RequestBody ACH ach) {	    
+	    return dao.addACH(oid, ach);      
+	}
+	
+	@RequestMapping("lease/sign/{oid}")
+	public int signLease(@PathVariable(name = "oid") int oid, @RequestBody Lease lease) {	    
+	    return dao.signLease(oid, lease);
+	}
+	
+	@RequestMapping("lease/view/{uid}")
+	public List<Lease> displayLease(@PathVariable(name = "uid") int uid) {	    
+	    return dao.displayLease(uid);      
+	}
+	
+	@RequestMapping("lease/pay/{oid}")
+	public int makePayment(@PathVariable(name = "oid") int oid, @RequestBody PaymentDetails pd) {	    
+	    return dao.makePayment(oid, pd);      
 	}
 
 }

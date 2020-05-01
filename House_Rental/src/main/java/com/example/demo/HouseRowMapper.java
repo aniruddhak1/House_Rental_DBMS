@@ -22,7 +22,8 @@ public class HouseRowMapper implements RowMapper<House>{
     	house.setNumber_of_rooms(rs.getInt("NUMBER_OF_ROOMS"));
     	house.setUtilities_included(rs.getString("UTILITIES_INCLUDED"));
     	house.setRent(rs.getInt("RENT"));
-    	house.setAvailable(rs.getString("AVAILABILE"));
+    	house.setAvailable(rs.getString("AVAILABLE"));
+    	house.setUser_id(rs.getInt("USER_ID"));
     	
         System.out.println("Exiting method rowmapper "+house.getStreet_name());
         return house;

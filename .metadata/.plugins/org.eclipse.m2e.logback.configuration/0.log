@@ -896,3 +896,280 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:or
 2020-04-21 22:31:22,460 [Worker-393: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-04-21 22:31:22,461 [Worker-393: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-21 22:31:22,461 [Worker-393: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-21 22:56:31,812 [Worker-400: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 22:56:31,813 [Worker-400: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-21 22:56:31,813 [Worker-400: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-21 22:56:31,815 [Worker-400: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 22:56:31,815 [Worker-400: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-21 22:59:32,066 [Worker-406: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 22:59:32,067 [Worker-406: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-21 22:59:32,067 [Worker-406: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-21 22:59:32,068 [Worker-406: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 22:59:32,068 [Worker-406: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-21 23:01:12,937 [Worker-409: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:01:12,938 [Worker-409: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-21 23:01:12,938 [Worker-409: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-21 23:01:12,939 [Worker-409: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:01:12,939 [Worker-409: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-21 23:08:50,390 [Worker-413: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:08:50,390 [Worker-413: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-21 23:08:50,391 [Worker-413: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-21 23:08:50,392 [Worker-413: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:08:50,392 [Worker-413: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-21 23:09:49,268 [Worker-414: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:09:49,269 [Worker-414: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-21 23:09:49,269 [Worker-414: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-21 23:09:49,271 [Worker-414: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-21 23:09:49,271 [Worker-414: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 09:56:03,998 [Worker-421: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 09:56:04,013 [Worker-421: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 09:56:04,025 [Worker-421: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 09:56:04,026 [Worker-421: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 09:56:04,026 [Worker-421: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 09:57:11,099 [Worker-425: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 09:57:11,100 [Worker-425: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 09:57:11,101 [Worker-425: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 09:57:11,101 [Worker-425: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 09:57:11,101 [Worker-425: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:00:10,997 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:00:10,997 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:00:10,998 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:00:10,999 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:00:10,999 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:01:45,207 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:01:45,207 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:01:45,208 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:01:45,209 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:01:45,209 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:05:25,909 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:05:25,909 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:05:25,910 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:05:25,911 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:05:25,911 [Worker-427: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:06:46,536 [Worker-434: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:06:46,536 [Worker-434: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:06:46,537 [Worker-434: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:06:46,538 [Worker-434: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:06:46,538 [Worker-434: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:07:51,534 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:07:51,534 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:07:51,535 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:07:51,535 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:07:51,535 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:13:29,622 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:13:29,622 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:13:29,623 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:13:29,626 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:13:29,626 [Worker-435: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:15:27,651 [Worker-444: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:15:27,652 [Worker-444: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:15:27,653 [Worker-444: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:15:27,654 [Worker-444: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:15:27,654 [Worker-444: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:15:55,431 [Worker-428: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:15:55,431 [Worker-428: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:15:55,432 [Worker-428: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:15:55,433 [Worker-428: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:15:55,433 [Worker-428: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:18:15,853 [Worker-440: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:18:15,853 [Worker-440: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:18:15,855 [Worker-440: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:18:15,855 [Worker-440: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:18:15,855 [Worker-440: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:30:46,469 [Worker-455: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:30:46,469 [Worker-455: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:30:46,470 [Worker-455: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:30:46,471 [Worker-455: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:30:46,471 [Worker-455: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:38:22,162 [Worker-460: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:38:22,163 [Worker-460: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:38:22,163 [Worker-460: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:38:22,165 [Worker-460: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:38:22,165 [Worker-460: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:45:58,804 [Worker-466: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:58,804 [Worker-466: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:45:58,806 [Worker-466: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:45:58,808 [Worker-466: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:58,808 [Worker-466: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:48:58,375 [Worker-471: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:48:58,375 [Worker-471: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:48:58,376 [Worker-471: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:48:58,377 [Worker-471: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:48:58,377 [Worker-471: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:54:03,396 [Worker-476: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:54:03,397 [Worker-476: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:54:03,398 [Worker-476: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:54:03,402 [Worker-476: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:54:03,402 [Worker-476: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 10:55:42,700 [Worker-481: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:55:42,701 [Worker-481: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 10:55:42,702 [Worker-481: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 10:55:42,704 [Worker-481: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:55:42,704 [Worker-481: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:05:42,288 [Worker-483: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:05:42,289 [Worker-483: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:05:42,290 [Worker-483: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:05:42,291 [Worker-483: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:05:42,291 [Worker-483: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:07:33,161 [Worker-467: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:07:33,162 [Worker-467: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:07:33,163 [Worker-467: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:07:33,164 [Worker-467: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:07:33,164 [Worker-467: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:12:35,206 [Worker-487: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:12:35,207 [Worker-487: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:12:35,208 [Worker-487: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:12:35,210 [Worker-487: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:12:35,210 [Worker-487: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:15:26,145 [Worker-488: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:15:26,146 [Worker-488: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:15:26,147 [Worker-488: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:15:26,149 [Worker-488: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:15:26,149 [Worker-488: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:27:47,330 [Worker-496: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:27:47,335 [Worker-496: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:27:47,350 [Worker-496: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:27:47,355 [Worker-496: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:27:47,355 [Worker-496: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:33:22,398 [Worker-497: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:33:22,409 [Worker-497: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:33:22,424 [Worker-497: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:33:22,426 [Worker-497: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:33:22,427 [Worker-497: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:36:32,168 [Worker-500: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:36:32,170 [Worker-500: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:36:32,172 [Worker-500: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:36:32,174 [Worker-500: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:36:32,174 [Worker-500: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:40:10,149 [Worker-505: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:40:10,150 [Worker-505: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:40:10,151 [Worker-505: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:40:10,153 [Worker-505: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:40:10,153 [Worker-505: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:48:23,626 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:48:23,630 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:48:23,633 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:48:23,635 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:48:23,635 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:49:16,359 [Worker-499: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:49:16,360 [Worker-499: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:49:16,361 [Worker-499: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:49:16,363 [Worker-499: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:49:16,363 [Worker-499: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:52:09,178 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:52:09,179 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:52:09,181 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:52:09,182 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:52:09,182 [Worker-511: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 11:53:11,654 [Worker-508: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:53:11,655 [Worker-508: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 11:53:11,656 [Worker-508: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 11:53:11,657 [Worker-508: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 11:53:11,657 [Worker-508: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 12:27:39,462 [Worker-525: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:27:39,465 [Worker-525: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 12:27:39,472 [Worker-525: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 12:27:39,474 [Worker-525: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:27:39,474 [Worker-525: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 12:32:12,668 [Worker-523: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:32:12,668 [Worker-523: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 12:32:12,669 [Worker-523: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 12:32:12,670 [Worker-523: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:32:12,670 [Worker-523: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 12:33:13,780 [Worker-532: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:33:13,780 [Worker-532: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 12:33:13,781 [Worker-532: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 12:33:13,782 [Worker-532: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:33:13,782 [Worker-532: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 12:35:46,331 [Worker-534: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:35:46,331 [Worker-534: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 12:35:46,332 [Worker-534: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 12:35:46,333 [Worker-534: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:35:46,333 [Worker-534: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 12:36:27,777 [Worker-535: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:36:27,777 [Worker-535: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 12:36:27,778 [Worker-535: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 12:36:27,779 [Worker-535: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 12:36:27,779 [Worker-535: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 13:14:38,823 [Worker-534: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-22 13:14:39,603 [Worker-534: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:House_Rental:0.0.1-SNAPSHOT @ D:\Workspaces\HouseRental\House_Rental\pom.xml.
+2020-04-22 13:14:40,184 [Worker-534: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /House_Rental/src/main/java
+2020-04-22 13:14:40,184 [Worker-534: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /House_Rental/src/main/resources
+2020-04-22 13:14:40,184 [Worker-534: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /House_Rental/src/main/resources
+2020-04-22 13:14:40,184 [Worker-534: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /House_Rental/src/test/java
+2020-04-22 13:14:40,527 [Worker-534: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-04-22 13:14:51,007 [Worker-543: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:14:51,007 [Worker-543: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 13:14:51,020 [Worker-543: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 13:14:51,021 [Worker-543: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:14:51,021 [Worker-543: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 13:15:58,560 [Worker-548: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:15:58,560 [Worker-548: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 13:15:58,561 [Worker-548: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 13:15:58,561 [Worker-548: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:15:58,561 [Worker-548: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 13:34:51,732 [Worker-560: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:34:51,733 [Worker-560: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 13:34:51,735 [Worker-560: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 13:34:51,736 [Worker-560: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:34:51,736 [Worker-560: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 13:37:34,357 [Worker-559: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:37:34,357 [Worker-559: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 13:37:34,358 [Worker-559: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 13:37:34,359 [Worker-559: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:37:34,359 [Worker-559: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 13:49:09,279 [Worker-567: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:49:09,279 [Worker-567: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 13:49:09,280 [Worker-567: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 13:49:09,281 [Worker-567: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 13:49:09,281 [Worker-567: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 14:09:51,785 [Worker-578: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:09:51,785 [Worker-578: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 14:09:51,786 [Worker-578: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 14:09:51,787 [Worker-578: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:09:51,787 [Worker-578: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 14:34:44,531 [Worker-582: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:34:44,532 [Worker-582: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 14:34:44,533 [Worker-582: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 14:34:44,534 [Worker-582: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:34:44,534 [Worker-582: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 15:14:50,218 [Worker-591: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 15:14:50,218 [Worker-591: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 15:14:50,219 [Worker-591: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 15:14:50,221 [Worker-591: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 15:14:50,221 [Worker-591: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 18:25:15,913 [Worker-622: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 18:25:15,914 [Worker-622: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 18:25:15,915 [Worker-622: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 18:25:15,916 [Worker-622: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 18:25:15,916 [Worker-622: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 18:26:34,624 [Worker-621: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 18:26:34,625 [Worker-621: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 18:26:34,626 [Worker-621: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 18:26:34,627 [Worker-621: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 18:26:34,627 [Worker-621: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 19:00:09,570 [Worker-632: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:00:09,570 [Worker-632: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 19:00:09,571 [Worker-632: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 19:00:09,572 [Worker-632: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:00:09,572 [Worker-632: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 19:03:13,499 [Worker-645: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:03:13,499 [Worker-645: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 19:03:13,500 [Worker-645: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 19:03:13,501 [Worker-645: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:03:13,501 [Worker-645: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 19:09:44,517 [Worker-652: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:09:44,517 [Worker-652: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 19:09:44,518 [Worker-652: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 19:09:44,519 [Worker-652: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:09:44,519 [Worker-652: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 19:11:14,012 [Worker-648: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:11:14,012 [Worker-648: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 19:11:14,013 [Worker-648: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 19:11:14,014 [Worker-648: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:11:14,014 [Worker-648: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources
+2020-04-22 19:20:11,941 [Worker-648: Launching House_Rental - HouseRentalApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:20:11,942 [Worker-648: Launching House_Rental - HouseRentalApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-22 19:20:11,943 [Worker-648: Launching House_Rental - HouseRentalApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-22 19:20:11,943 [Worker-648: Launching House_Rental - HouseRentalApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 19:20:11,943 [Worker-648: Launching House_Rental - HouseRentalApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\HouseRental\House_Rental\src\test\resources

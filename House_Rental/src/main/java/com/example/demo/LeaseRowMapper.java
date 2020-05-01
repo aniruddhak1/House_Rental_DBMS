@@ -1,0 +1,30 @@
+package com.example.demo;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class LeaseRowMapper implements RowMapper<Lease>{
+	
+	@Override
+    public Lease mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+        System.out.println("Entering method leasemapper");
+    	Lease lease = new Lease();
+    	lease.setId(rs.getInt("ID"));
+    	lease.setHouse_id(rs.getInt("HOUSE_ID"));
+    	lease.setLease_sign_date(rs.getDate("LEASE_SIGN_DATE"));
+    	lease.setLease_start_date(rs.getDate("LEASE_START_DATE"));
+    	lease.setLease_end_date(rs.getDate("LEASE_END_DATE"));
+    	lease.setLease_amount(rs.getInt("LEASE_AMOUNT"));
+    	lease.setUser_id(rs.getInt("USER_ID"));
+    	lease.setActive(rs.getString("ACTIVE"));
+    	lease.setBalance(rs.getInt("BALANCE"));
+    	
+        System.out.println("Exiting method leasemapper "+lease.getHouse_id());
+        return lease;
+
+    }
+
+}
