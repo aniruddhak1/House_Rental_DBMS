@@ -89,10 +89,5 @@ public class HouseRentalController {
 	public int makePayment(@PathVariable(name = "oid") int oid, @RequestBody PaymentDetails pd) {	    
 	    return dao.makePayment(oid, pd);      
 	}
-	
-	@RequestMapping("lease/payments/{uid}")
-	public List<PaymentDetails> displayPayments(@PathVariable(name = "uid") int uid) {	    
-	    return dao.displayPayments(uid);      
-	}
 
 }

@@ -138,19 +138,6 @@ public class RentalDAO {
 				pd.getLease_payment_id(),pd.getUser_id(),pd.getPayment_amount(),pd.getCurrent_balance(),pd.getPayment_mode(),pd.getPayment_mode_id(),pd.getPayment_date(),pd.getMemo());
 		}
 	
-	public List<PaymentDetails> displayPayments(int uid){
-		
-		String sql = "SELECT * FROM payment_details where user_id="+uid;
-
-	    System.out.println("Before lease jdbc");
-		List<PaymentDetails> output = jdbcTemplate.query(
-                sql,
-                new PaymentDetailsRowMapper());
-		System.out.println("After lease jdbc");
-
-	    return output;
-	    }
-	
 	public int signLease(int oid, Lease lease){ //havent used oid here
 		
 		return jdbcTemplate.update("insert into lease (HOUSE_ID,LEASE_SIGN_DATE,LEASE_START_DATE,LEASE_END_DATE,LEASE_AMOUNT,USER_ID,ACTIVE,BALANCE) values(?,?,?,?,?,?,?,?)",

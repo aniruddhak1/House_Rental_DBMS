@@ -140,7 +140,7 @@ public class RentalDAO {
 	
 	public List<PaymentDetails> displayPayments(int uid){
 		
-		String sql = "SELECT * FROM payment_details where user_id="+uid;
+		String sql = "SELECT * FROM LEASE where user_id="+uid;
 
 	    System.out.println("Before lease jdbc");
 		List<PaymentDetails> output = jdbcTemplate.query(
