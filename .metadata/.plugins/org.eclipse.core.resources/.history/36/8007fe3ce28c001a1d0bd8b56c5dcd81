@@ -122,22 +122,20 @@ public class RentalDAO {
 	
 	public int addCard(int oid, Card card){
 		
-		return jdbcTemplate.update("insert into card_details (USER_ID,TYPE,CARD_NUMBER,VALID_MONTH,VALID_YEAR,CVV,POSTAL_CODE,ACTIVE) values((select id from users where email_id = ?),?,?,?,?,?,?,'YES')",
-				card.getEmail_id(),card.getType(),card.getCard_number(),card.getValid_month(),card.getValid_year(),card.getCvv(),card.getPostal_code());
+		return jdbcTemplate.update("insert into card_details (USER_ID,TYPE,CARD_NUMBER,VALID_MONTH,VALID_YEAR,CVV,POSTAL_CODE,ACTIVE) values(?,?,?,?,?,?,?,?)",
+				oid,card.getType(),card.getCard_number(),card.getValid_month(),card.getValid_year(),card.getCvv(),card.getPostal_code(),card.getActive());
 		}
 	
 	public int addACH(int oid, ACH ach){
 		
-		return jdbcTemplate.update("insert into ach_transfer (USER_ID,ROUTING_NUMBER,ACCOUNT_NUMBER,ACCOUNT_TYPE,BANK_NAME,ACCOUNT_NAME,ACTIVE) values((select id from users where email_id = ?),?,?,?,?,?,'YES')",
-				ach.getEmail_id(),ach.getRouting_number(),ach.getAccount_number(),ach.getAccount_type(),ach.getBank_name(),ach.getAccount_name());
+		return jdbcTemplate.update("insert into ach_transfer (USER_ID,ROUTING_NUMBER,ACCOUNT_NUMBER,ACCOUNT_TYPE,BANK_NAME,ACCOUNT_NAME,ACTIVE) values(?,?,?,?,?,?,?)",
+				oid,ach.getRouting_number(),ach.getAccount_number(),ach.getAccount_type(),ach.getBank_name(),ach.getAccount_name(),ach.getActive());
 		}
 	
 	public int makePayment(int oid, PaymentDetails pd){
 		
-		jdbcTemplate.update("update lease set BALANCE=BALANCE - ? where id=(select l.id as lease_id from lease l join users u on l.user_id = u.id where email_id = ?)",pd.getPayment_amount(),pd.getEmail_id());
-		
-		return jdbcTemplate.update("insert into payment_details (LEASE_ID,USER_ID,PAYMENT_AMOUNT,CURRENT_BALANCE,PAYMENT_MODE,PAYMENT_MODE_ID,PAYMENT_DATE,MEMO) values((select l.id as lease_id from lease l join users u on l.user_id = u.id where email_id = ?),(select id from users where email_id = ?),?,?,?,?,?,?)",
-				pd.getEmail_id(),pd.getEmail_id(),pd.getPayment_amount(),pd.getCurrent_balance(),pd.getPayment_mode(),pd.getPayment_mode_id(),pd.getPayment_date(),pd.getMemo());
+		return jdbcTemplate.update("insert into payment_details (LEASE_PAYMENT_ID,USER_ID,PAYMENT_AMOUNT,CURRENT_BALANCE,PAYMENT_MODE,PAYMENT_MODE_ID,PAYMENT_DATE,MEMO) values(?,?,?,?,?,?,?,?)",
+				pd.getLease_payment_id(),pd.getUser_id(),pd.getPayment_amount(),pd.getCurrent_balance(),pd.getPayment_mode(),pd.getPayment_mode_id(),pd.getPayment_date(),pd.getMemo());
 		}
 	
 	public List<PaymentDetails> displayPayments(int uid){
@@ -154,8 +152,6 @@ public class RentalDAO {
 	    }
 	
 	public int signLease(int oid, Lease lease){ //havent used oid here
-		
-		jdbcTemplate.update("update house set AVAILABLE='NO' where id=?",lease.getHouse_id());
 		
 		return jdbcTemplate.update("insert into lease (HOUSE_ID,LEASE_SIGN_DATE,LEASE_START_DATE,LEASE_END_DATE,LEASE_AMOUNT,USER_ID,ACTIVE,BALANCE) values(?,?,?,?,?,?,?,?)",
 				lease.getHouse_id(),lease.getLease_sign_date(),lease.getLease_start_date(),lease.getLease_end_date(),lease.getLease_amount(),lease.getUser_id(),lease.getActive(),12*lease.getLease_amount());

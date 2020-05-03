@@ -13,14 +13,7 @@ public class PaymentDetails {
 	private int payment_mode_id;
 	private Date payment_date;
 	private String memo;
-	private String email_id;
 	
-	public String getEmail_id() {
-		return email_id;
-	}
-	public void setEmail_id(String email_id) {
-		this.email_id = email_id;
-	}
 	public int getId() {
 		return id;
 	}
